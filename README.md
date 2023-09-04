@@ -1,8 +1,8 @@
 From a freecodecamp problem at:
 https://www.freecodecamp.org/learn/coding-interview-prep/data-structures/remove-elements-from-a-linked-list-by-index
 
-**Remove Elements from a Linked List by Index
-**
+**Remove Elements from a Linked List by Index**
+
 Before we move on to another data structure, let's get a couple of last bits of practice with linked lists.
 
 Let's write a removeAt method that removes the element at a given index. The method should be called removeAt(index). To remove an element at a certain index, we'll need to keep a running count of each node as we move along the linked list.
