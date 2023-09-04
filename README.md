@@ -54,6 +54,7 @@ function LinkedList() {
 
   // Only change code below this line ------------------------------------------------
   
+  
   this.removeAt = function(index) {
     // Exit early on bad input
     if (index < 0 || index >= length) {
