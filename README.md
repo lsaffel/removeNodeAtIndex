@@ -52,9 +52,7 @@ function LinkedList() {
     length++;
   };
 
-  // Only change code below this line ------------------------------------------------
-  
-  
+  // Only change code below this line
   this.removeAt = function(index) {
     // Exit early on bad input
     if (index < 0 || index >= length) {
@@ -80,5 +78,5 @@ function LinkedList() {
     length--;
     return deletedNode.element;
   }
-  // Only change code above this line ------------------------------------------------
+  // Only change code above this line
 }
